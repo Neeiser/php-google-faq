@@ -59,7 +59,7 @@
 
             forEach($arr_QnA as $key => $value){ ?>
                 <h1><?php echo $value['question']; ?></h1>
-                <?php echo $value['answer']; ?>
+                <p><?php echo $value['answer']; ?></p>
             <?php }
         ?>
     </main>

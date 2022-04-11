@@ -8,3 +8,17 @@ body{
 main{
     margin: 0px 400px;
 }
+
+h1{
+    color: #1b1b1b;
+}
+
+p,
+ol{
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+
+li{
+    padding: 5px 0;
+}
