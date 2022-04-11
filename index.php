@@ -50,6 +50,9 @@
         forEach($arr_QnA as $QnA){ ?>
             <h1><?php echo $QnA['question']; ?></h1>
             <p><?php echo $QnA['answer']; ?></p>
+            <?php forEach($sub_answer as $item){?>
+                
+            <?php } ?>
         <?php }
     ?>
     
