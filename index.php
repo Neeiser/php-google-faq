@@ -56,9 +56,9 @@
             ],
         ];
 
-        forEach($arr_QnA as $QnA){ ?>
-            <h1><?php echo $QnA['question']; ?></h1>
-            <p><?php echo $QnA['answer']; ?></p>
+        forEach($arr_QnA as $key => $value){ ?>
+            <h1><?php echo $value['question']; ?></h1>
+            <p><?php echo $value['answer']; ?></p>
         <?php }
     ?>
     
